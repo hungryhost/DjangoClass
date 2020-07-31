@@ -1,0 +1,6 @@
+/ClassStudent/migrations
+/DjangoClass/settings.py
+*.sqlite3
+/venv
+.idea
+**/__pycache__

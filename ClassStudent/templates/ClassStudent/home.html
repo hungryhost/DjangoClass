@@ -1,0 +1,18 @@
+{% extends "ClassStudent/base.html" %}
+{% block content %}
+    <h1>Class Home</h1>
+    <!-- The section below takes context from views.py and iterates
+     through <posts> key in dictionary <context>-->
+    {% for posts in posts %}
+        <article class="media content-section">
+            <div class="media-body">
+                <div class="article-metadata">
+                    <a class="mr-2" href="#">{{ posts.author }}</a>
+                    <small class="text-muted">{{ posts.date}}</small>
+                </div>
+                <h2><a class="article-title" href="#">{{ posts.title }}</a></h2>
+                <p class="article-content">{{ posts.content }}</p>
+            </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
