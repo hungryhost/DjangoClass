@@ -20,4 +20,4 @@ def register(request):
 
 @login_required()
 def profile(request):
-	return render(request, 'UserRegistration/profile.html')
+	return render(request, 'UserProfile/profile.html')
