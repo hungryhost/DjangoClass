@@ -1,5 +1,10 @@
-/ClassStudent/migrations
+/Apps/ClassStudent/migrations
+/Apps/UserProfile/migrations
+/Apps/UserRegistration/migrations
+/configs
+/run
 /DjangoClass/settings.py
+
 *.sqlite3
 /venv
 .idea
